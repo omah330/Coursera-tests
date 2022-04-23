@@ -1,0 +1,90 @@
+body{
+	font-size: 16px;
+	color: white;
+	background-color: #ebfeff;/** light blue **/
+	font-family: 'oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav{
+	background-color: black;
+	border-radius: 30;
+	border: 30;
+}
+
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'monospace', serif;
+	color: #ebfeff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: -11px;
+	margin-bottom: 0px;
+	line-height: .75;
+}
+.navbar-brand a:hover, navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #ebfeff;
+}
+#nav-list{
+	margin-top: 5px;
+}
+#nav-list a {
+	color: gray;
+	text-align: center;
+	font-size: 1.8em;
+	margin-bottom: 10px;
+}
+#nav-list a:hover {
+	background: white;
+	opacity: .8;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+h3 {
+	text-align: center;
+	color: white;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+/* END HEADER*/
+
+/* HOME PAGE*/
+#main-content h3 {
+	font-size: 2.0em;
+	color: white;
+}
+#home-tiles{
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+
+	
+}
+#Chicken, #Beef, #Sushi{
+	background-color: black;
+	border: 2px solid white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	opacity: 8;
+}
+#main-content{
+	border: 1px;
+	background-color: black;
+	opacity: .8;
+	border-radius: 50;
+	opacity: 1;
+
+}
