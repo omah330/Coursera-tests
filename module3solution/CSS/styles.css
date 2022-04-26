@@ -1,7 +1,7 @@
 body{
 	font-size: 16px;
-	color: white;
-	background-color: #ebfeff;/** light blue **/
+	color: black;
+	background-color: gray;/** light blue **/
 	font-family: 'oxygen', sans-serif;
 }
 
@@ -11,7 +11,10 @@ body{
 	border-radius: 30;
 	border: 30;
 }
-
+#top h2 {
+	color: black;
+	text-align: center;
+}
 
 .navbar-brand{
 	padding-top: 25px;
@@ -38,6 +41,7 @@ body{
 #nav-list{
 	margin-top: 4px;
 }
+
 #nav-list a {
 	color: gray;
 	text-align: center;
@@ -51,10 +55,10 @@ body{
 #nav-list a span {
 	font-size: 1.8em;
 }
-h3 {
+#top h3 {
 	text-align: center;
-	color: white;
-	font-size: 1.8em;
+	color: black;
+	font-size: 2.8em;
 	font-weight: bold;
 }
 
